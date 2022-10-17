@@ -1,0 +1,69 @@
+html, body{
+    background-color: #F3FAF9;
+}
+
+.pure-u-1-2{
+    margin-top: 30px;
+}
+
+h1{
+    text-align: center;
+    color: #c94a39;
+    font-size: 40px;
+}
+
+h2{
+    text-align: center;
+    color: #c94a39;
+    font-size: 30px;
+    background-color: rgb(233, 211, 210);
+}
+
+p{
+    text-align: center;
+    color: #c94a39;
+    font-size: 16px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#map {
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+.h_r{
+    font-weight: bold;
+}
+
+#header{
+    text-align: center;
+}
+
+#word{
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#hist{
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#box{
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+#bar{
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+}

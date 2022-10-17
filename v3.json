@@ -1,0 +1,21 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "datav1/cleandata.csv"},
+    "background": "#F3FAF9",
+    "width": 800,
+    "height": 300,
+    "mark": {"type": "bar", "tooltip": true},
+    "encoding": {
+      "x": {
+        "bin": {"maxbins":30},
+        "field": "salary_in_usd",
+        "title": "Salary in USD"
+      },
+      "y": {"aggregate": "count", "title": "Amount of people"},
+      "color":{
+        "aggregate": "count",
+        "type": "quantitative",
+        "scale": {"type": "linear", "range": ["#f493a1", "#ab0707"]}
+      }
+      }
+    }

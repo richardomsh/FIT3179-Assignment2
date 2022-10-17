@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Assignment2</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
+      integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css"
+    />
+
+    <link rel="stylesheet" href="v1.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <script src="v1.js"></script>
+  </head>
+
+  <body>
+    <div class="pure-g">
+      <div class="pure-u-1">
+        <h1>Data Science Job Salaries Across Countries</h1>
+      </div>
+
+      <div class="pure-u-1">
+        <h2 class="header">Average Salary</h2>
+      </div>
+
+      <div class="pure-u-1">
+        <div id="map"></div>
+      </div>
+
+      <div class="pure-u-1">
+        <p id="p1">
+          The map above illustrates the average salary of data science job
+          across countries. We can see that <span class="h_r">Russia</span> has
+          the highest average salary of <span class="h_r">USD $157 500</span>.
+          Followed by <span class="h_r">USA</span> which has an average salary
+          of <span class="h_r">USD $145 059</span>. On the other hand, countries
+          like <span class="h_r">Kenya</span> and
+          <span class="h_r">Iran</span> has an average salary between USD
+          <span class="h_r">$4000</span> and <span class="h_r">$10000</span>.
+        </p>
+      </div>
+
+      <div class="pure-u-1">
+        <div id="hist"></div>
+        <p id="p1">
+          From the histogram above, we can analyze that
+          <span class="h_r">majority</span> of people has a salary between
+          <span class="h_r">$40 000 - $100 000 USD</span>. Furthermore, the
+          <span class="h_r">maximum</span> amount of salaries is between
+          <span class="h_r">$580 000 - $600 000 USD</span>.
+        </p>
+      </div>
+
+      <div class="pure-u-1">
+        <h2>Top Job Titles</h2>
+      </div>
+
+      <div class="pure-u-1">
+        <div id="word"></div>
+        <p id="p1">
+          The Word Cloud above is used to illustrate the top job taken by people
+          across the globe. It is observable that most people has
+          <span class="h_r">Data Scientist</span> as their job as it the
+          largest. Followed by <span class="h_r">Data Engineer</span> and
+          <span class="h_r">Data Analyst</span>. However, the rest of the job
+          titles are also related to these top 3.
+        </p>
+      </div>
+
+      <div class="pure-u-1">
+        <div id="box"></div>
+        <p id="p1">
+          Despite Data Scientist being the job with most people, it doesn't have
+          the highest paying salary. Instead,
+          <span class="h_r">Data Engineering Manager</span> has the highest
+          average salary of <span class="h_r">$153 000 USD</span>. Moreover, the
+          highest reached paying salary goes to the
+          <span class="h_r">Reasearch Scientist</span> job which is
+          <span class="h_r">$450 000 USD</span> followed by
+          <span class="h_r">Data Science Consultant</span> job which is
+          <span class="h_r">$412 000 USD</span>.
+        </p>
+      </div>
+
+      <div class="pure-u-1">
+        <h2>Highest Paying Job</h2>
+      </div>
+
+      <div class="pure-u-1">
+        <div id="bar"></div>
+        <p id="p1">
+          Above is the jobs with the highest paying salary. We can see that
+          <span class="h_r">Principal Data Engineer</span> has the highest
+          amount of salary among them all at
+          <span class="h_r">$600 000 USD</span>. Followed by Reasearch Scientist
+          and Financial Data Analyst. Apart from that, the
+          <span class="h_r">Data Scientist</span> job which has the highest
+          amount of people in it <span class="h_r">ranked sixth (6th)</span> in
+          the list.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "datav1/toptitlesalary.csv"},
+    "background": "#F3FAF9",
+    "width": 800,
+    "height": 200,
+    "mark": "boxplot",
+    "encoding": {
+      "x": {"field": "job_title", "type": "nominal", "title": "Job Title"},
+      "y": {
+        "field": "salary_in_usd",
+        "type": "quantitative",
+        "scale": {"zero": false},
+        "title": "Salary in USD"
+      },
+      "tooltip":{
+        "field": "salary_in_usd",
+        "type": "quantitative"
+      }
+    }
+  }
